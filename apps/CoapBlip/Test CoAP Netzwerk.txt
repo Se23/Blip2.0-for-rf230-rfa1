@@ -1,0 +1,73 @@
+http://tinyos.stanford.edu/tinyos-wiki/index.php/BLIP_2.0_Tutorial
+http://tinyos.stanford.edu/tinyos-wiki/index.php/CoAP_-13
+
+
+1. Basisstation mit PppRouter programmieren.
+
+
+cd /opt/tinyos-2.x/apps/PppRouter/
+make ucmini blip install
+avrdude -cavr109 -pm128rfa1 -P/dev/ttyUSB0 -Uflash:w:build/ucmini/main.srec:a -b57600
+sudo pppd debug passive noauth nodetach 115200 /dev/ttyUSB0 nocrtscts nocdtrcts lcp-echo-interval 0 noccp noip ipv6 ::23,::24
+
+sudo ifconfig ppp0 add fec0::100/64
+
+
+
+2. CoAP-Serverknoten mit CoapBlip programmieren (Bsp. mit ID 7 und 8)
+
+
+cd /opt/tinyos-2.x/apps/CoapBlip
+make ucmini blip coap install.7
+avrdude -cavr109 -pm128rfa1 -P/dev/ttyUSB1 -Uflash:w:build/ucmini/main.srec.out-7:a -b57600
+
+
+
+3. Verbindungstests
+
+
+ping6 fec0::7
+nc6 -u fec0::1 2000
+route
+
+cd $TOSROOT/support/sdk/c/coap/examples
+./coap-client coap://[fec0::7]/st
+./coap-client coap://[fec0::8]/l
+./coap-client -m put coap://[fec0::8]/l -e 7
+
+Firefox: 
+coap://[fec0::7]:5683/.well-known/core
+
+
+
+4. Start des CoAP-Proxies
+
+
+cd /opt/Californium/run/
+java -jar cf-proxy-0.18.2-SNAPSHOT.jar
+
+
+
+5. Test des CoAP-Proxies (Firefox)
+
+
+http://localhost:8080/proxy/coap://[fec0::7]:5683/.well-known/core
+http://localhost:8080/proxy/coap://[fec0::7]:5683/st
+
+
+
+6. openHAB starten
+
+cd /opt/openhab/openHAB1.3.1/
+sh start.sh
+
+openHAB-Designer:
+cd /opt/openhAb/openHABDesigner1.3.1/
+./openHAB-Designer
+
+
+Firefox: http://localhost:8082/openhab.app?sitemap=coapWSN
+
+
+
+

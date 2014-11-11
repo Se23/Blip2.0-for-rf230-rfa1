@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Ziel: alle 10 min ein Durchlauf mit 10 Anfragen für alle Knoten und 10 s zwischen den Knoten
+
+echo "Start Blip-Netzwerktest"
+# Anzahl Durchläufe >= 10 für Einzelmessungen >= 100
+#N=1000000	
+
+# Anzahl Echo-Requests pro Durchlauf
+COUNT=10
+
+
+#for i in $(seq 0 $N)
+for ((i=1;;))
+do
+	#date +%Y%m%d%k%M%S
+	#echo "Zeit"
+	date +%d.%m.%Y-%k:%M:%S
+	ping6 -c $COUNT fec0::2
+	#sleep 10
+
+done
