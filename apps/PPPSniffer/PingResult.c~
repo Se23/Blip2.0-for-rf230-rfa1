@@ -1,0 +1,225 @@
+
+//***************************************************************************************************************
+//* auswertung.c												*
+//* Autor: Sebastian Scheibe											*
+//* Datum: 10.10.2012												*
+//*														*
+//* Beschreibung: Dieses Programm liest die erstellte Pingstatistik ein und formatiert diese so, 		*
+//* dass sie anschließend in eine Excel-Tabelle kopiert, bzw. in die Datenbank aufgenommen werden kann.		*
+//* Die Pingstatistik wird mit Hilfe der folgenden Datei erstellt: test_ping.sh und muss mit diesem 		*
+//* Befehl gestartet werden, damit die Daten in einem Text-File gespeichert werden:				*
+//* ./test_ping.sh > daten.txt											*
+//* Nach Start dieses Auswertungsprogrammes wird man aufgefordert, den Namen der Datei (z.B. daten.txt) 	*
+//* einzugeben. Die formatierte Ausgabe wird anschließend in einer erzeugten Datei result_<SOURCE>,		*
+//* z.B. result_daten.txt abgespeichert.									*
+//* Sind dieses Programmes ist es lediglich, die gewonnenen Daten nicht per Hand in die Datenbank eingeben 	*
+//* zu müssen.													*
+//* 														*
+//***************************************************************************************************************
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+  
+  FILE *f, *g;
+  char Text[100],Zeile[100];
+  char nodes[8][100]; //1.Feld ist das Array für die Darstellung der Node-ID, 2.Feld stellt eine Liste dar, in der die Knoten eingetragen sind
+  char node_id[8];    //temporär benötigtes Array zum Zwischenspeichern einer Knoten-ID
+  int numberOfNodes = 0;
+  int i,j;
+  char* Line;
+  
+
+/*
+ *    Datei wird nach den Knoten durchsucht, sie werden im Array 'nodes[][]' gespeichert
+ *
+ */
+void getNodes(void){
+	fseek(f, 0, SEEK_SET);
+	while( fgets(Zeile, sizeof(Zeile), f) !=0 ){			//Datei wird zeilenweise eingelesen
+		strcpy(Text,Zeile);
+              	Text[10]='\0';
+              	if(strcmp(Text,"--- fec0::") == 0){			//falls Zeile mit '--- fec0::' beginnt, enthält sie die ID eines Knoten 
+			i=10;
+                        while(Zeile[i]!=' '){				//Knoten-ID wird zeichenweise im Array node_id[] gespeichert
+				node_id[i-10]=Zeile[i];i++;
+			}
+                        node_id[i-10]='\0';
+			int lastCh = i-10;
+			j=0;
+			for(i=0;i<99;i++){				//Knoten-ID wird ggf. in die Knoten-ID-Liste 'nodes[][]' aufgenommen 
+				int value=0;
+				for(j=0;j<=lastCh;j++){
+					if(nodes[j][i]!=node_id[j]){
+						value++;
+					}
+				}
+				if(value==0){				//Knoten-ID schon vorhanden
+					break;
+				}
+				else if(nodes[0][i]=='\0' && nodes[1][i]=='\0' && nodes[2][i]=='\0'){ 
+					for(j=0;j<=lastCh;j++){	//Knoten-ID wird am Ende der Liste eingetragen
+						nodes[j][i]=node_id[j];
+					}
+					numberOfNodes++;
+					break;
+				}
+						
+			}
+         	}
+	}
+      
+}
+
+/*
+ *    Datei wird zeilenweise gelesen und formatierte Ausgabe zeilenweise in die result-Datei geschrieben
+ *
+ */
+void rwData(void){
+
+       	char String1[100], String[100];
+	int received, error, dup, pipe, loss;
+  	char rtt_min[10], rtt_max[10], rtt_avg[10], rtt_dev[10];
+	int run=0, runcounter = 0; //run, runcounter dienen zum Berechnen des aktuellen Runs 
+
+ 	i=0;
+       	fseek(f, 0, SEEK_SET);
+       	sprintf(String1,"gefundene Knoten: ");
+       	strcpy(String,String1);
+       	while(nodes[0][i]!='\0'){					//Knoten-ID-Liste wird ausgelesen und in die result-Datei geschrieben
+         	sprintf(String1," <%c",nodes[0][i]);
+         	strcat(String,String1);
+		j=1;
+		while(nodes[j][i]!='\0'){
+			sprintf(String1,"%c",nodes[j][i]);
+	           	strcat(String,String1);
+			j++;
+		}
+		sprintf(String1,"> ");
+	    	strcat(String,String1);
+            	i++;
+  	}
+      	strcat(String,"\n"); 
+      	fputs(String, g);
+      	fputs("run,avg,min,max,mdev,loss,received,error,dup,pipe,0,0\n",g);
+      
+     	run = 1; runcounter=0;                 
+      	while( fgets(Zeile, sizeof(Zeile), f) !=0 ){			//Datei wird zeilenweise eingelesen
+         	strcpy(Text,Zeile);
+              	Text[22]='\0';
+              	if(strstr(Zeile,"packets transmitted")!= NULL){	//falls Zeile 'packets transmitted' enthält, enthält sie ggf. die Daten für 'received', 'loss', 'dup', 'error' 
+                 	runcounter++;
+                       	if(runcounter>numberOfNodes){
+				runcounter = 1;
+				run++;
+			}
+			//setzen der default-Werte:
+                      	loss = 10;
+                    	received = 0;
+                       	error = 0;
+                     	dup = 0;
+			rtt_min[0]='0';rtt_min[1]='\0';
+			rtt_avg[0]='0';rtt_avg[1]='\0';
+			rtt_max[0]='0';rtt_max[1]='\0';
+			rtt_dev[0]='0';rtt_dev[1]='\0';
+			for(i=3;i<strlen(Zeile);i++){
+                  		if(Zeile[i]=='r' && Zeile[i+1] == 'e' && Zeile [i+2] == 'c'){	//Received
+					received = atoi(&Zeile[i-3]);
+				}      
+                  		if(Zeile[i]=='%' && Zeile[i+1] == ' ' && Zeile [i+2] == 'p'){ 	//Loss 
+					if(received==0){ 
+						loss = atoi(&Zeile[0]);
+					}
+					else{
+						loss = atoi(&Zeile[i-2])*atoi(&Zeile[0])/100;
+					}
+				} 
+				if(Zeile[i]=='d' && Zeile[i+1] == 'u' && Zeile [i+2] == 'p'){ 	//Duplikate
+					dup = atoi(&Zeile[i-3]);
+				}       		
+                             	if(Zeile[i]=='e' && Zeile[i+1] == 'r' && Zeile [i+2] == 'r'){	//Error 
+					error = atoi(&Zeile[i-3]);
+				}  		
+       			}       
+	      		if(fgets(Zeile, sizeof(Zeile), f) !=0 ){ 
+              			strcpy(Text,Zeile);
+				Text[22]='\0';
+              			if(strcmp(Text,"rtt min/avg/max/mdev =") == 0){ 		//falls die nachfolgende Zeile mit 'rtt min/...' beginnt, können die RTT-Zeiten ausgelesen werden 
+                        		i = 23;
+                        		while(Zeile[i]!='/'){					//rtt_min
+						rtt_min[i-23]=Zeile[i];i++;			
+					}
+                        		rtt_min[i-23]='\0';
+                    
+                        		i++;
+                        		int start = i;
+                        		while(Zeile[i]!='/'){					//rtt_avg
+						rtt_avg[i-start]=Zeile[i];i++;
+					}
+                        		rtt_avg[i-start]='\0';
+                        
+                        		i++;
+                        		start = i;
+                        		while(Zeile[i]!='/'){					//rtt_max
+						rtt_max[i-start]=Zeile[i];i++;
+					}
+                        		rtt_max[i-start]='\0';
+
+                        		i++;
+                        		start = i;
+                        		while(Zeile[i]!=' '){					//rtt_dev
+						rtt_dev[i-start]=Zeile[i];i++;
+					}
+                        		rtt_dev[i-start]='\0';
+                        
+                                	Line =strstr(Zeile,"pipe ");				//pipe
+                                	if(Line != NULL){
+						pipe = atoi(&Line[5]);
+					}
+                                	else{
+						pipe = 0;
+					}
+	                  	}            
+               		}
+			//Konsolen-Ausgabe
+              		printf("Run:%i avg:%s min:%s max:%s dev:%s loss:%i received:%i error:%i dup:%i pipe:%i\n", run, rtt_avg, rtt_min, rtt_max, rtt_dev, loss, received, error, dup, pipe);
+              		//result-Datei-Ausgabe
+			sprintf(String1,"%i,'%s','%s','%s','%s',NULL,%i,%i,%i,%i,%i,0,0\n",run,rtt_avg,rtt_min,rtt_max,rtt_dev,loss,received,error,dup,pipe);
+              		fputs(String1,g);
+         	}
+   	}      
+}
+
+int main(int argc, char *argv[]){
+	
+	char datei[50], result[62];
+
+	for(i=0; i<99; i++){			//Reset der Knoten-Liste (alle Einträge = '0')
+		for(j=0;j<8;j++){
+			nodes[j][i]='\0';
+		}
+  	}
+  
+  	printf("Dateiname eingeben: ");
+  	scanf("%s",&datei);
+  
+  	f = fopen(datei,"r");			//Öffnen der Quell-Datei
+  
+  	if(f==NULL){
+          	printf("Fehler beim Einlesen der Datei.\n");
+      	}
+  	else{
+      		strcpy(result,"result_");
+       		strcat(result,datei);
+       		g = fopen(result,"w");		//Erstellen und Öffnen der result-Datei
+       		getNodes();			//Knoten auslesen
+       		rwData();			//Daten auslesen und in result-Datei schreiben
+
+       		fclose(f);
+       		fclose(g);
+  	}
+  
+  	//system("PAUSE");	
+  	return 0;
+}

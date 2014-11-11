@@ -1,0 +1,55 @@
+
+#include "Ms5607.h"
+
+generic module MeasurementP() {
+ 
+  //provides interface Read<uint16_t> as AtmegaTemperature;
+  //provides interface Read<uint16_t> as BatteryVoltage;
+
+  //provides interface Read<uint16_t> as Ms5607Temperature;
+  //provides interface Read<uint32_t> as Ms5607Pressure;
+
+  provides interface Read<uint16_t> as Temperature;
+  provides interface Read<uint16_t> as Humidity;
+  //provides interface Read<uint16_t> as Light;
+  
+  //uses interface Resource as TempResource;
+  //uses interface Resource as HumResource;
+  //uses interface SensirionSht11 as Sht11Temp;
+  //uses interface SensirionSht11 as Sht11Hum;
+    //uses interface AtmegaTemperatureC;
+    //uses interface AtmegaVoltageC;
+    //uses interface LightC;
+    //uses interface PressureC;
+    //uses interface Ms5607TemperatureC;
+    //uses interface Ms5607CalibrationC;
+    //uses interface TemperatureC;
+    //uses interface HumidityC;
+
+}
+implementation {
+ 
+ components TemperatureC;
+ components HumidityC;
+
+
+  command error_t Temperature.read() {
+    call TemperatureC.read();
+    return SUCCESS;
+  }
+
+  event void TemperatureC.Done(error_t result, uint16_t val ) {
+    signal Temperature.readDone( result, val );
+  }
+
+  command error_t Humidity.read() {
+    call HumidityC.read();
+    return SUCCESS;
+  }
+
+  event void HumidityC.Done(error_t result, uint16_t val ) {
+    signal Humidity.readDone( result, val );
+  }
+
+
+

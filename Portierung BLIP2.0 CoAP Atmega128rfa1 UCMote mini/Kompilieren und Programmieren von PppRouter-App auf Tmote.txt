@@ -1,0 +1,3 @@
+#> make telosb cc2420x_32khz blip install,1 bsl,/dev/ttyUSB0
+#> sudo pppd debug passive noauth nodetach 115200 /dev/ttyUSB0 nocrtscts nocdtrcts lcp-echo-interval 0 noccp noip ipv6 ::23,::24
+#> sudo ifconfig ppp0 add fec0::100/64

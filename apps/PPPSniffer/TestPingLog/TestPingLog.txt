@@ -1,0 +1,1929 @@
+Start Blip-Netzwerktest
+01.08.2014-14:03:51
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=34.4 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=34.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=36.7 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=36.7 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=39.4 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=38.2 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=37.7 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=35.5 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=36.9 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 9 received, 10% packet loss, time 9024ms
+rtt min/avg/max/mdev = 34.419/36.754/39.498/1.533 ms
+01.08.2014-14:04:11
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=41.0 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=38.0 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=37.8 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=43.7 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=43.0 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=38.7 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=38.1 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=36.8 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=36.4 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=40.7 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9018ms
+rtt min/avg/max/mdev = 36.491/39.473/43.713/2.408 ms
+01.08.2014-14:04:30
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=41.3 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=35.4 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=41.0 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=33.0 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=38.9 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=39.1 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=36.6 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=33.8 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=37.8 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=40.6 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9017ms
+rtt min/avg/max/mdev = 33.019/37.798/41.383/2.845 ms
+01.08.2014-14:04:49
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=35.6 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=34.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=37.3 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=39.9 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=38.6 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=41.0 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=37.7 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=40.4 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=40.0 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=40.9 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9017ms
+rtt min/avg/max/mdev = 34.969/38.676/41.064/2.087 ms
+01.08.2014-14:05:09
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=34.7 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=38.8 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=40.6 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=36.4 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=38.7 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=38.3 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=38.8 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=36.5 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=37.0 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=35.9 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9019ms
+rtt min/avg/max/mdev = 34.744/37.609/40.607/1.668 ms
+01.08.2014-14:05:28
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=35.2 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=34.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=35.9 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=42.4 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=35.6 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=34.3 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=40.6 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=41.3 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=40.5 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9019ms
+rtt min/avg/max/mdev = 34.378/37.818/42.446/2.913 ms
+01.08.2014-14:05:47
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=36.1 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=35.1 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=31.9 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=34.3 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=41.7 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=39.9 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=36.8 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=40.5 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=39.1 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=36.6 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9018ms
+rtt min/avg/max/mdev = 31.963/37.244/41.763/2.910 ms
+01.08.2014-14:06:06
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=39.0 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=36.6 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=39.1 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=36.7 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=38.1 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=36.7 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=38.2 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=40.9 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=39.4 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=37.8 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9020ms
+rtt min/avg/max/mdev = 36.662/38.305/40.986/1.349 ms
+01.08.2014-14:06:25
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=38.1 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=35.7 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=38.3 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=36.8 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=34.9 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=38.8 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=37.0 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=37.2 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=38.9 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9016ms
+rtt min/avg/max/mdev = 34.952/37.317/38.983/1.239 ms
+01.08.2014-14:06:44
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=37.3 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=36.5 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=37.0 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=36.8 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=40.2 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=35.8 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=36.6 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=39.4 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=41.7 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=37.5 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9018ms
+rtt min/avg/max/mdev = 35.846/37.933/41.732/1.815 ms
+01.08.2014-14:07:03
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=37.6 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=40.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=38.0 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=36.7 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=39.1 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=38.6 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=41.3 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=35.7 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=41.3 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=34.0 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9020ms
+rtt min/avg/max/mdev = 34.008/38.375/41.387/2.344 ms
+01.08.2014-14:07:22
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=36.8 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=36.8 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=35.7 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=36.2 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=40.7 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=42.2 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=38.7 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=37.3 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=41.9 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=36.5 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9019ms
+rtt min/avg/max/mdev = 35.744/38.338/42.215/2.323 ms
+01.08.2014-14:07:41
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=38.2 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=38.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=40.5 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=41.0 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=38.9 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=37.7 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=42.0 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=34.9 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=37.4 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=35.0 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9017ms
+rtt min/avg/max/mdev = 34.966/38.494/42.005/2.246 ms
+01.08.2014-14:08:00
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=39.7 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=35.2 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=32.9 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=40.5 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=39.1 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=38.8 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=37.5 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=37.9 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=40.7 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=38.2 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9017ms
+rtt min/avg/max/mdev = 32.951/38.094/40.757/2.299 ms
+01.08.2014-14:08:19
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=35.4 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=38.2 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=41.6 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=36.0 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=40.8 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=34.9 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=36.2 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=39.2 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=41.0 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=37.8 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9014ms
+rtt min/avg/max/mdev = 34.973/38.164/41.653/2.349 ms
+01.08.2014-14:08:39
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=37.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=38.1 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=34.9 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=34.5 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=42.1 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=39.0 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=37.4 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=34.9 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9018ms
+rtt min/avg/max/mdev = 34.589/37.321/42.166/2.156 ms
+01.08.2014-14:08:58
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=37.2 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=42.1 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=37.5 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=55.0 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=33.8 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=37.1 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=39.7 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=41.6 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=34.3 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=38.7 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9018ms
+rtt min/avg/max/mdev = 33.824/39.754/55.002/5.702 ms
+01.08.2014-14:09:17
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=38.5 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=37.3 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=37.4 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=39.7 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=39.5 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=37.0 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=38.6 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=36.6 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=40.4 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9018ms
+rtt min/avg/max/mdev = 36.602/38.242/40.449/1.296 ms
+01.08.2014-14:09:36
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=42.0 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=39.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=39.1 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=36.5 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=38.9 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=33.3 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=35.9 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=34.6 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9017ms
+rtt min/avg/max/mdev = 33.359/37.456/42.071/2.482 ms
+01.08.2014-14:09:55
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=40.8 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=42.2 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=36.0 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=38.5 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=41.2 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=40.6 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=38.1 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=35.6 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=41.2 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9020ms
+rtt min/avg/max/mdev = 35.679/39.157/42.247/2.275 ms
+01.08.2014-14:10:14
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=35.7 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=39.4 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=38.0 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=42.7 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=35.9 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=36.2 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=40.6 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=39.2 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=38.8 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=35.5 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9016ms
+rtt min/avg/max/mdev = 35.533/38.258/42.788/2.287 ms
+01.08.2014-14:10:33
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=38.0 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=36.7 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=38.0 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=40.7 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=43.2 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=34.9 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=39.5 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=40.3 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=37.9 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=33.5 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9018ms
+rtt min/avg/max/mdev = 33.598/38.326/43.266/2.701 ms
+01.08.2014-14:10:52
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=37.9 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=34.7 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=40.3 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=38.8 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=36.6 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=37.1 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=33.6 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=41.0 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=35.5 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=36.2 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9020ms
+rtt min/avg/max/mdev = 33.643/37.218/41.080/2.268 ms
+01.08.2014-14:11:11
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=39.4 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=37.4 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=37.6 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=41.0 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=41.1 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=38.3 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=35.4 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=40.9 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=40.1 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=36.5 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9017ms
+rtt min/avg/max/mdev = 35.483/38.832/41.171/1.931 ms
+01.08.2014-14:11:30
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=38.2 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=38.2 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=38.7 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=43.2 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=41.5 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=40.9 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=38.3 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=40.5 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=37.0 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9018ms
+rtt min/avg/max/mdev = 36.936/39.386/43.247/1.988 ms
+01.08.2014-14:11:49
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=36.6 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=37.3 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=38.9 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=38.4 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=39.7 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=39.9 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=38.9 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=38.4 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=39.4 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=41.1 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9009ms
+rtt min/avg/max/mdev = 36.681/38.909/41.136/1.232 ms
+01.08.2014-14:12:09
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=38.8 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=38.0 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=39.6 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=38.0 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=40.6 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=34.9 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=37.9 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=36.6 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=37.5 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=39.9 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9018ms
+rtt min/avg/max/mdev = 34.931/38.233/40.605/1.597 ms
+01.08.2014-14:12:28
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=38.6 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=34.5 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=39.2 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=40.6 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=38.2 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=35.7 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=37.2 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=36.0 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=38.4 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9019ms
+rtt min/avg/max/mdev = 34.548/37.583/40.663/1.730 ms
+01.08.2014-14:12:47
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=39.8 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=40.8 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=38.5 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=37.0 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=37.5 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=35.3 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=37.9 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=35.5 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=38.1 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9016ms
+rtt min/avg/max/mdev = 35.358/37.779/40.884/1.654 ms
+01.08.2014-14:13:06
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=37.2 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=35.4 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=34.0 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=41.0 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=35.3 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=41.9 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=35.5 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=38.2 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=35.6 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=43.2 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9019ms
+rtt min/avg/max/mdev = 34.091/37.780/43.230/3.049 ms
+01.08.2014-14:13:25
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=37.2 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=39.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=43.0 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=39.9 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=40.7 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=40.1 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=40.0 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=38.2 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=40.8 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=39.1 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9019ms
+rtt min/avg/max/mdev = 37.243/39.941/43.010/1.467 ms
+01.08.2014-14:13:44
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=36.7 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=38.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=39.9 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=40.7 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=41.0 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=36.8 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=39.5 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=36.8 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=37.7 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=40.3 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9017ms
+rtt min/avg/max/mdev = 36.763/38.882/41.069/1.616 ms
+01.08.2014-14:14:03
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=40.4 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=35.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=34.6 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=37.0 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=35.9 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=37.3 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=36.6 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=38.3 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=36.6 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9017ms
+rtt min/avg/max/mdev = 34.662/36.997/40.402/1.490 ms
+01.08.2014-14:14:22
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=38.0 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=36.5 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=33.1 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=36.6 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=39.8 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=37.8 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=35.7 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=34.1 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=35.7 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=40.4 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9018ms
+rtt min/avg/max/mdev = 33.140/36.822/40.418/2.193 ms
+01.08.2014-14:14:41
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=35.5 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=34.2 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=39.0 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=39.0 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=40.0 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=39.8 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=33.0 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=34.3 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9016ms
+rtt min/avg/max/mdev = 33.060/36.906/40.014/2.412 ms
+01.08.2014-14:15:00
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=39.3 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=38.3 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=40.9 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=39.1 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=40.8 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=36.5 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=39.1 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=38.4 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=39.1 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9019ms
+rtt min/avg/max/mdev = 36.586/38.900/40.918/1.342 ms
+01.08.2014-14:15:19
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=40.5 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=37.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=36.8 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=38.6 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=35.1 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=39.8 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=41.0 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=40.7 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=41.2 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9014ms
+rtt min/avg/max/mdev = 35.135/38.897/41.261/2.021 ms
+01.08.2014-14:15:39
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=39.3 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=37.8 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=40.7 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=34.1 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=39.7 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=37.7 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=42.0 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=39.9 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=38.6 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=36.1 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9017ms
+rtt min/avg/max/mdev = 34.128/38.638/42.018/2.193 ms
+01.08.2014-14:15:58
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=39.3 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=38.8 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=36.1 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=39.2 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=36.5 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=34.8 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=36.0 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=35.3 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=38.8 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=36.8 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9017ms
+rtt min/avg/max/mdev = 34.808/37.217/39.385/1.635 ms
+01.08.2014-14:16:17
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=37.3 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=34.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=38.3 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=37.8 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=35.6 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=38.1 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=36.6 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=38.2 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=35.6 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=34.2 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9020ms
+rtt min/avg/max/mdev = 34.222/36.702/38.361/1.425 ms
+01.08.2014-14:16:36
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=35.9 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=36.2 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=35.6 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=38.1 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=40.7 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=34.2 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=36.7 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=33.7 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=41.0 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 9 received, 10% packet loss, time 9020ms
+rtt min/avg/max/mdev = 33.767/36.942/41.010/2.425 ms
+01.08.2014-14:16:56
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=34.1 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=38.8 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=38.5 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=39.9 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=35.2 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=35.9 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=39.6 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=36.0 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=35.6 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9018ms
+rtt min/avg/max/mdev = 34.124/37.096/39.951/1.903 ms
+01.08.2014-14:17:15
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=39.9 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=32.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=40.5 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=38.1 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=41.5 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=43.1 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=36.5 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=39.1 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=38.7 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=41.1 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9021ms
+rtt min/avg/max/mdev = 32.959/39.188/43.168/2.743 ms
+01.08.2014-14:17:34
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=38.3 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=38.6 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=41.1 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=40.6 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=38.1 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=40.6 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=38.1 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=38.8 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=37.6 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=42.0 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9021ms
+rtt min/avg/max/mdev = 37.642/39.428/42.034/1.457 ms
+01.08.2014-14:17:53
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=38.9 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=35.7 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=41.2 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=36.8 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=42.3 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=35.9 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=38.4 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=38.9 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9016ms
+rtt min/avg/max/mdev = 35.743/38.236/42.326/2.107 ms
+01.08.2014-14:18:12
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=39.0 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=35.7 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=40.2 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=40.9 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=38.3 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=38.0 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=38.6 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=38.1 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=40.6 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=38.2 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9021ms
+rtt min/avg/max/mdev = 35.797/38.804/40.927/1.446 ms
+01.08.2014-14:18:31
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=40.9 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=36.4 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=36.1 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=35.5 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=36.1 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=35.7 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=41.1 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=40.7 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=38.2 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=35.6 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9020ms
+rtt min/avg/max/mdev = 35.525/37.678/41.126/2.254 ms
+01.08.2014-14:18:50
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=37.6 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=38.2 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=40.7 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=39.2 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=36.7 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=38.2 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=36.4 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=34.0 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=39.0 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9019ms
+rtt min/avg/max/mdev = 34.058/37.724/40.704/1.743 ms
+01.08.2014-14:19:10
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=33.3 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=38.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=35.0 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=34.0 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=41.0 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=35.5 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=41.9 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=40.4 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=38.1 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=41.8 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9016ms
+rtt min/avg/max/mdev = 33.397/38.048/41.917/3.130 ms
+01.08.2014-14:19:29
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=37.5 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=39.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=39.5 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=37.1 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=38.6 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=41.5 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=38.8 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=37.5 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=37.9 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=36.7 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9017ms
+rtt min/avg/max/mdev = 36.738/38.547/41.575/1.430 ms
+01.08.2014-14:19:48
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=36.4 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=39.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=38.9 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=36.6 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=41.3 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=36.8 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=39.5 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=39.9 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=37.9 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=38.3 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9018ms
+rtt min/avg/max/mdev = 36.419/38.595/41.350/1.572 ms
+01.08.2014-14:20:07
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=41.3 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=36.6 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=35.2 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=34.9 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=39.5 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=36.1 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=38.9 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=35.2 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=41.9 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=36.5 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9019ms
+rtt min/avg/max/mdev = 34.959/37.677/41.980/2.478 ms
+01.08.2014-14:20:26
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=40.1 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=33.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=37.3 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=34.8 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=38.5 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=37.1 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=35.6 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=39.1 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=40.8 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=35.2 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9018ms
+rtt min/avg/max/mdev = 33.981/37.292/40.846/2.233 ms
+01.08.2014-14:20:45
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=36.5 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=38.5 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=39.1 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=36.6 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=41.3 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=35.7 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=41.2 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=36.5 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=36.2 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=36.9 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9022ms
+rtt min/avg/max/mdev = 35.798/37.921/41.311/1.961 ms
+01.08.2014-14:21:04
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=38.3 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=36.6 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=41.3 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=35.7 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=34.2 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=39.9 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=35.5 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=36.0 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=39.9 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=39.0 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9020ms
+rtt min/avg/max/mdev = 34.269/37.699/41.333/2.236 ms
+01.08.2014-14:21:23
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=37.2 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=37.3 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=40.4 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=35.8 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=40.6 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=41.2 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=36.5 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=33.0 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=40.5 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=36.2 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9020ms
+rtt min/avg/max/mdev = 33.051/37.932/41.234/2.551 ms
+01.08.2014-14:21:42
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=36.2 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=37.5 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=36.6 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=37.9 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=41.7 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=39.4 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=35.7 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=36.2 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9018ms
+rtt min/avg/max/mdev = 35.735/37.547/41.727/1.729 ms
+01.08.2014-14:22:01
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=37.0 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=35.5 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=40.4 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=34.2 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=37.8 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=37.0 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=36.5 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=39.2 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=40.7 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9009ms
+rtt min/avg/max/mdev = 34.240/37.574/40.763/1.957 ms
+01.08.2014-14:22:21
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=37.9 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=40.2 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=35.9 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=35.5 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=37.9 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=34.9 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=35.6 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=39.1 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=40.5 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=36.2 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9018ms
+rtt min/avg/max/mdev = 34.964/37.429/40.570/1.954 ms
+01.08.2014-14:22:40
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=37.7 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=38.2 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=38.5 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=39.7 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=33.6 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=38.0 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=38.8 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=34.3 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=37.9 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=35.6 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9019ms
+rtt min/avg/max/mdev = 33.622/37.283/39.716/1.916 ms
+01.08.2014-14:22:59
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=35.0 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=38.2 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=36.7 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=39.2 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=34.9 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=38.5 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 7 received, 30% packet loss, time 9035ms
+rtt min/avg/max/mdev = 34.984/37.098/39.204/1.549 ms
+01.08.2014-14:23:19
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=34.2 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=38.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=34.9 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=34.9 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=38.2 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=36.5 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=43.1 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=36.6 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9016ms
+rtt min/avg/max/mdev = 34.278/37.168/43.117/2.428 ms
+01.08.2014-14:23:38
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=35.7 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=39.8 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=37.9 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=38.1 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=36.6 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=38.1 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=36.0 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=35.4 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=36.6 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=39.9 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9018ms
+rtt min/avg/max/mdev = 35.431/37.454/39.974/1.549 ms
+01.08.2014-14:23:57
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=37.4 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=40.0 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=38.2 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=37.7 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=37.3 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=41.9 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=34.9 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=36.8 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=32.7 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=36.5 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9018ms
+rtt min/avg/max/mdev = 32.727/37.386/41.905/2.387 ms
+01.08.2014-14:24:16
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=38.3 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=38.2 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=35.7 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=38.2 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=38.9 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=38.3 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=37.0 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=42.4 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=36.7 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9019ms
+rtt min/avg/max/mdev = 35.783/38.126/42.450/1.717 ms
+01.08.2014-14:24:35
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=36.2 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=34.3 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=35.8 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=39.5 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=37.3 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=39.5 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=34.1 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=39.2 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=37.2 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=38.9 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9017ms
+rtt min/avg/max/mdev = 34.128/37.259/39.536/1.962 ms
+01.08.2014-14:24:54
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=37.5 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=38.8 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=44.0 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=37.5 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=37.9 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=40.0 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=44.7 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=37.9 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=37.1 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9020ms
+rtt min/avg/max/mdev = 36.952/39.283/44.735/2.693 ms
+01.08.2014-14:25:13
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=36.8 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=41.9 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=40.1 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=37.2 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=38.4 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=39.3 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=37.3 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=40.1 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=40.3 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 9 received, 10% packet loss, time 9022ms
+rtt min/avg/max/mdev = 36.835/39.095/41.945/1.638 ms
+01.08.2014-14:25:33
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=38.5 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=37.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=38.9 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=39.9 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=40.9 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=35.3 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=39.9 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=39.9 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=34.1 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=37.9 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9017ms
+rtt min/avg/max/mdev = 34.107/38.361/40.964/2.068 ms
+01.08.2014-14:25:53
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=35.2 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=35.4 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=37.5 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=35.4 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=40.4 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=36.4 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=36.4 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=35.2 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=38.3 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=38.3 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9019ms
+rtt min/avg/max/mdev = 35.240/36.899/40.426/1.660 ms
+01.08.2014-14:26:12
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=37.0 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=39.9 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=34.0 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=37.9 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=39.0 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=34.0 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=41.9 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=37.8 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=38.1 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9018ms
+rtt min/avg/max/mdev = 34.023/37.709/41.963/2.298 ms
+01.08.2014-14:26:31
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=36.8 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=34.7 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=39.2 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=41.8 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=40.6 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=39.0 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=40.8 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=39.3 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=36.8 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=37.5 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9019ms
+rtt min/avg/max/mdev = 34.791/38.707/41.874/2.077 ms
+01.08.2014-14:26:50
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=38.5 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=42.8 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=40.6 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=38.0 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=40.7 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=36.1 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=38.9 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=34.5 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=34.9 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=36.9 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9018ms
+rtt min/avg/max/mdev = 34.515/38.245/42.890/2.537 ms
+01.08.2014-14:27:09
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=37.5 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=36.6 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=37.0 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=37.8 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=39.3 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=37.9 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=35.9 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=35.3 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=37.9 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=40.6 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9018ms
+rtt min/avg/max/mdev = 35.326/37.635/40.621/1.481 ms
+01.08.2014-14:27:28
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=36.4 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=34.5 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=37.0 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=39.1 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=37.3 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=39.9 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=36.5 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=41.2 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=38.5 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=38.3 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9019ms
+rtt min/avg/max/mdev = 34.546/37.921/41.246/1.844 ms
+01.08.2014-14:27:47
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=38.2 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=44.2 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=40.6 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=36.2 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=58.8 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=34.2 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=40.1 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=39.4 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=41.9 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=40.0 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9020ms
+rtt min/avg/max/mdev = 34.231/41.402/58.837/6.395 ms
+01.08.2014-14:28:06
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=39.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=41.4 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=36.7 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=36.3 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=35.7 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=38.2 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=36.4 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=37.0 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9019ms
+rtt min/avg/max/mdev = 35.798/37.610/41.471/1.716 ms
+01.08.2014-14:28:25
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=40.4 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=39.1 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=39.4 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=42.2 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=35.0 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=37.6 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=37.0 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=39.6 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=41.9 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9018ms
+rtt min/avg/max/mdev = 35.028/38.956/42.250/2.188 ms
+01.08.2014-14:28:44
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=33.2 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=40.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=37.1 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=38.8 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=41.8 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=37.8 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=32.9 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=33.9 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=39.0 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=40.0 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9016ms
+rtt min/avg/max/mdev = 32.905/37.579/41.839/3.063 ms
+01.08.2014-14:29:03
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=39.3 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=36.3 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=38.7 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=40.4 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=39.4 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=39.3 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=37.5 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=41.2 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=37.3 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=39.3 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9018ms
+rtt min/avg/max/mdev = 36.304/38.915/41.298/1.429 ms
+01.08.2014-14:29:23
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=39.6 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=43.0 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=42.0 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=39.8 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=35.9 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=37.0 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=39.9 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=37.9 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=39.9 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 9 received, 10% packet loss, time 9015ms
+rtt min/avg/max/mdev = 35.998/39.509/43.050/2.118 ms
+01.08.2014-14:29:43
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=38.9 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=38.4 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=39.4 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=39.5 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=36.5 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=39.4 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=35.4 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=36.3 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=41.1 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=39.2 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9018ms
+rtt min/avg/max/mdev = 35.471/38.466/41.113/1.694 ms
+01.08.2014-14:30:02
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=39.8 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=37.4 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=44.0 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=40.1 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=37.0 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=38.9 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=36.8 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=38.0 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=40.7 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9018ms
+rtt min/avg/max/mdev = 36.872/39.008/44.085/2.181 ms
+01.08.2014-14:30:21
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=40.2 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=38.0 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=38.2 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=36.7 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=38.2 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=39.0 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=35.4 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=39.0 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=38.9 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=35.3 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9019ms
+rtt min/avg/max/mdev = 35.335/37.933/40.228/1.552 ms
+01.08.2014-14:30:40
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=40.3 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=40.0 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=34.9 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=36.5 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=36.1 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=38.5 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=38.1 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=32.8 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=35.7 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=38.2 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9018ms
+rtt min/avg/max/mdev = 32.865/37.161/40.328/2.237 ms
+01.08.2014-14:30:59
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=40.3 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=36.0 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=41.5 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=38.3 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=38.7 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=39.1 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=38.6 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=39.2 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=36.7 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=36.8 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9021ms
+rtt min/avg/max/mdev = 36.033/38.570/41.579/1.607 ms
+01.08.2014-14:31:18
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=35.2 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=37.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=40.6 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=40.2 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=33.6 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=37.1 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=34.9 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=39.5 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=37.0 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9018ms
+rtt min/avg/max/mdev = 33.617/37.330/40.614/2.207 ms
+01.08.2014-14:31:37
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=39.3 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=37.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=41.8 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=38.5 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=35.8 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=35.5 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=37.1 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=38.4 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=38.1 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=33.6 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9021ms
+rtt min/avg/max/mdev = 33.662/37.640/41.810/2.143 ms
+01.08.2014-14:31:56
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=35.5 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=37.8 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=37.7 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=35.3 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=37.7 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=36.8 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=39.2 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=39.9 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=35.7 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=38.2 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9017ms
+rtt min/avg/max/mdev = 35.384/37.433/39.920/1.488 ms
+01.08.2014-14:32:15
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=39.0 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=37.1 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=37.9 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=36.7 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=39.4 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=34.8 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=35.8 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=38.3 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=34.9 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=34.4 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9016ms
+rtt min/avg/max/mdev = 34.474/36.887/39.489/1.720 ms
+01.08.2014-14:32:34
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=39.2 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=37.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=35.7 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=37.2 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=41.0 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=39.5 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=41.0 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=35.4 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=38.7 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=35.5 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9019ms
+rtt min/avg/max/mdev = 35.493/38.169/41.086/2.036 ms
+01.08.2014-14:32:54
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=39.6 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=41.4 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=40.8 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=38.7 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=36.8 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=36.4 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=38.1 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=35.7 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=38.0 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=35.7 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9020ms
+rtt min/avg/max/mdev = 35.730/38.170/41.414/1.933 ms
+01.08.2014-14:33:13
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=38.5 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=39.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=40.5 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=39.2 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=38.7 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=41.1 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=41.6 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=38.2 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=34.0 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=36.5 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9019ms
+rtt min/avg/max/mdev = 34.000/38.854/41.649/2.162 ms
+01.08.2014-14:33:32
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=37.4 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=39.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=41.1 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=38.9 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=39.5 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=39.0 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=36.6 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=37.9 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=42.0 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=40.0 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9017ms
+rtt min/avg/max/mdev = 36.656/39.275/42.081/1.577 ms
+01.08.2014-14:33:51
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=39.8 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=40.8 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=39.5 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=37.9 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=40.8 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=36.6 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=36.2 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=38.6 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=38.1 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=36.7 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9019ms
+rtt min/avg/max/mdev = 36.297/38.559/40.899/1.619 ms
+01.08.2014-14:34:10
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=38.5 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=39.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=41.3 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=36.5 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=38.2 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=38.8 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=38.1 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=35.5 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=38.2 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=40.5 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9022ms
+rtt min/avg/max/mdev = 35.574/38.600/41.394/1.669 ms
+01.08.2014-14:34:29
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=40.9 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=35.5 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=41.3 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=40.7 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=38.2 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=40.7 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=35.4 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=35.9 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=35.3 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=35.9 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9022ms
+rtt min/avg/max/mdev = 35.333/38.037/41.301/2.517 ms
+01.08.2014-14:34:48
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=38.5 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=41.8 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=32.5 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=39.3 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=41.9 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=37.9 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=38.6 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=36.1 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=36.6 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=43.1 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9016ms
+rtt min/avg/max/mdev = 32.549/38.689/43.196/3.022 ms
+01.08.2014-14:35:07
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=38.4 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=34.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=38.2 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=40.5 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=34.0 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=38.8 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=39.1 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=35.7 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=43.2 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9020ms
+rtt min/avg/max/mdev = 34.096/38.020/43.281/2.598 ms
+01.08.2014-14:35:26
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=38.8 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=41.8 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=35.8 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=38.9 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=37.8 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=39.9 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=43.2 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=40.9 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=34.6 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=36.7 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9017ms
+rtt min/avg/max/mdev = 34.693/38.896/43.272/2.574 ms
+01.08.2014-14:35:45
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=38.6 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=41.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=35.8 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=38.3 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=36.5 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=39.2 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=34.4 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=38.1 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=40.6 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9019ms
+rtt min/avg/max/mdev = 34.420/38.072/41.960/2.139 ms
+01.08.2014-14:36:04
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=41.5 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=37.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=34.8 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=38.6 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=42.3 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=37.1 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=36.2 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=37.9 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=35.6 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=40.5 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9009ms
+rtt min/avg/max/mdev = 34.855/38.288/42.317/2.381 ms
+01.08.2014-14:36:24
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=38.6 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=42.8 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=35.7 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=41.3 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=36.5 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=38.2 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=36.6 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=41.3 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=35.9 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=37.6 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9019ms
+rtt min/avg/max/mdev = 35.721/38.509/42.860/2.404 ms
+01.08.2014-14:36:43
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=39.3 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=39.0 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=36.7 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=35.8 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=38.0 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=34.9 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=36.5 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=36.6 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=37.0 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=35.3 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9022ms
+rtt min/avg/max/mdev = 34.980/36.962/39.341/1.393 ms
+01.08.2014-14:37:02
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=33.1 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=35.4 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=35.3 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=34.9 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=38.5 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=36.0 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=38.5 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=38.0 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=40.6 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=39.1 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9019ms
+rtt min/avg/max/mdev = 33.165/36.996/40.693/2.213 ms
+01.08.2014-14:37:21
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=37.2 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=38.0 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=37.6 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=38.5 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=34.5 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=36.3 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=37.4 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=36.4 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=40.4 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=39.0 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9018ms
+rtt min/avg/max/mdev = 34.505/37.579/40.424/1.554 ms
+01.08.2014-14:37:40
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=37.0 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=37.1 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=36.0 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=42.3 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=39.1 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=37.4 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=38.8 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=34.2 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=108 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=38.7 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9041ms
+rtt min/avg/max/mdev = 34.215/44.921/108.182/21.186 ms
+01.08.2014-14:37:59
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=39.8 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=40.5 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=38.4 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=38.6 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=42.9 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=37.5 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=38.3 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=38.5 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=35.4 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 9 received, 10% packet loss, time 9022ms
+rtt min/avg/max/mdev = 35.475/38.945/42.979/1.958 ms
+01.08.2014-14:38:19
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=37.0 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=37.0 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=38.2 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=43.0 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=40.9 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=38.1 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=40.1 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=38.8 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=37.9 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=38.0 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9019ms
+rtt min/avg/max/mdev = 37.062/38.944/43.025/1.802 ms
+01.08.2014-14:38:38
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=41.3 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=39.7 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=38.1 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=39.5 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=35.6 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=33.5 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=32.4 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=37.4 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=33.4 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=36.5 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9018ms
+rtt min/avg/max/mdev = 32.441/36.772/41.346/2.862 ms
+01.08.2014-14:38:57
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=44.8 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=36.1 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=41.1 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=42.0 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=41.0 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=35.9 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=39.9 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=37.9 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=41.0 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=33.1 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9017ms
+rtt min/avg/max/mdev = 33.109/39.315/44.862/3.320 ms
+01.08.2014-14:39:16
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=39.4 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=39.7 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=34.0 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=38.5 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=37.3 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=36.5 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=58.8 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=38.6 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=40.5 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=37.5 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9019ms
+rtt min/avg/max/mdev = 34.039/40.137/58.808/6.468 ms
+01.08.2014-14:39:35
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=38.0 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=36.1 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=38.1 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=40.1 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=38.1 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=37.2 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=40.0 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=36.0 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=37.8 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9011ms
+rtt min/avg/max/mdev = 36.069/37.869/40.144/1.353 ms
+01.08.2014-14:39:55
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=41.5 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=41.6 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=38.2 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=41.9 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=59.2 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=38.3 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=36.7 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=37.9 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=35.6 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=40.1 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9020ms
+rtt min/avg/max/mdev = 35.673/41.163/59.226/6.366 ms
+01.08.2014-14:40:14
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=45.7 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=39.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=37.9 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=42.7 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=49.7 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=43.1 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=35.9 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=37.9 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=36.0 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=37.0 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9018ms
+rtt min/avg/max/mdev = 35.971/40.635/49.728/4.368 ms
+01.08.2014-14:40:33
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=42.1 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=75.6 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=39.3 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=34.6 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=36.2 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=38.7 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=36.3 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=35.9 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=36.4 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=36.9 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9020ms
+rtt min/avg/max/mdev = 34.630/41.242/75.603/11.637 ms
+01.08.2014-14:40:52
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=34.8 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=34.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=38.7 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=37.0 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=35.7 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=35.4 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=39.9 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=39.8 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=39.0 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=38.0 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9017ms
+rtt min/avg/max/mdev = 34.890/37.365/39.941/1.900 ms
+01.08.2014-14:41:11
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=34.7 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=41.1 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=36.9 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=37.4 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=39.7 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=37.4 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=37.0 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=35.7 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=37.8 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=36.3 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9019ms
+rtt min/avg/max/mdev = 34.749/37.460/41.101/1.753 ms
+01.08.2014-14:41:30
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=36.0 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=38.7 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=38.2 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=35.6 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=39.4 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=35.7 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=36.3 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=37.5 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=39.5 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=34.0 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9021ms
+rtt min/avg/max/mdev = 34.057/37.134/39.548/1.768 ms
+01.08.2014-14:41:49
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=35.5 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=40.7 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=34.1 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=40.7 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=36.6 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=39.9 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=36.4 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=34.0 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=36.0 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=40.3 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9019ms
+rtt min/avg/max/mdev = 34.007/37.469/40.778/2.585 ms
+01.08.2014-14:42:08
+PING fec0::3(fec0::3) 56 data bytes
+64 bytes from fec0::3: icmp_seq=1 ttl=15 time=37.5 ms
+64 bytes from fec0::3: icmp_seq=2 ttl=15 time=38.9 ms
+64 bytes from fec0::3: icmp_seq=3 ttl=15 time=39.9 ms
+64 bytes from fec0::3: icmp_seq=4 ttl=15 time=37.4 ms
+64 bytes from fec0::3: icmp_seq=5 ttl=15 time=39.1 ms
+64 bytes from fec0::3: icmp_seq=6 ttl=15 time=35.9 ms
+64 bytes from fec0::3: icmp_seq=7 ttl=15 time=37.0 ms
+64 bytes from fec0::3: icmp_seq=8 ttl=15 time=35.0 ms
+64 bytes from fec0::3: icmp_seq=9 ttl=15 time=40.6 ms
+64 bytes from fec0::3: icmp_seq=10 ttl=15 time=38.5 ms
+
+--- fec0::3 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9016ms
+rtt min/avg/max/mdev = 35.039/38.036/40.633/1.679 ms

@@ -1,0 +1,307 @@
+diff --git a/tos/chips/rfA1/BareMessageC.nc b/tos/chips/rfA1/BareMessageC.nc
+new file mode 100644
+index 0000000..29c2913
+--- /dev/null
++++ b/tos/chips/rfA1/BareMessageC.nc
+@@ -0,0 +1,25 @@
++configuration BareMessageC
++{
++  provides
++  {
++    interface BareSend;
++    interface BareReceive;
++    interface Packet as BarePacket;
++    interface PacketLink;
++    interface LowPowerListening;
++    interface SplitControl as RadioControl;
++    interface ShortAddressConfig;
++  }
++}
++implementation
++{
++  components RFA1RadioC;
++
++  BareSend = RFA1RadioC;
++  BareReceive = RFA1RadioC;
++  BarePacket = RFA1RadioC.BarePacket;
++  PacketLink = RFA1RadioC;
++  LowPowerListening = RFA1RadioC;
++  RadioControl = RFA1RadioC.SplitControl;
++  ShortAddressConfig = RFA1RadioC;
++}
+diff --git a/tos/chips/rfA1/RFA1BarePacketP.nc b/tos/chips/rfA1/RFA1BarePacketP.nc
+new file mode 100644
+index 0000000..3764047
+--- /dev/null
++++ b/tos/chips/rfA1/RFA1BarePacketP.nc
+@@ -0,0 +1,35 @@
++module RFA1BarePacketP
++{
++  provides interface Packet as BarePacket;
++  uses interface RadioPacket;
++}
++implementation
++{
++  command void BarePacket.clear(message_t *msg)
++  {
++    call RadioPacket.clear(msg);
++  }
++
++  command uint8_t BarePacket.payloadLength(message_t *msg)
++  {
++     return call RadioPacket.payloadLength(msg)+sizeof(rfa1_header_t);
++  }
++
++  command void BarePacket.setPayloadLength(message_t *msg, uint8_t len)
++  {
++    call RadioPacket.setPayloadLength(msg, len-sizeof(rfa1_header_t));
++  }
++
++  command uint8_t BarePacket.maxPayloadLength()
++  {
++    return call RadioPacket.maxPayloadLength();
++  }
++
++  command void *BarePacket.getPayload(message_t *msg, uint8_t len)
++  {
++    if (len > call RadioPacket.maxPayloadLength())
++      return NULL;
++    else
++      return (void*)msg;
++  }
++}
+diff --git a/tos/chips/rfA1/RFA1RadioC.nc b/tos/chips/rfA1/RFA1RadioC.nc
+index ffbb23a..40cec20 100644
+--- a/tos/chips/rfA1/RFA1RadioC.nc
++++ b/tos/chips/rfA1/RFA1RadioC.nc
+@@ -56,13 +56,17 @@ configuration RFA1RadioC
+ 
+ #ifndef TFRAMES_ENABLED
+ 		interface Ieee154Send;
++		interface BareSend;
+ 		interface Receive as Ieee154Receive;
++		interface BareReceive;
+ 		interface SendNotifier as Ieee154Notifier;
+ 
+ 		interface Resource as SendResource[uint8_t clint];
+ 
+ 		interface Ieee154Packet;
+ 		interface Packet as PacketForIeee154Message;
++		interface Packet as BarePacket;
++        interface ShortAddressConfig;
+ #endif
+ 
+ 		interface PacketAcknowledgements;
+@@ -96,6 +100,15 @@ implementation
+ 
+ 	components RFA1RadioP as RadioP;
+ 
++	BareSend = TinyosNetworkLayerC.Ieee154Send;
++	BareReceive = TinyosNetworkLayerC.Ieee154Receive;
++    ShortAddressConfig = RadioP;
++
++	components RFA1BarePacketP as BarePacketP;
++	BarePacket = BarePacketP;
++	BarePacketP.RadioPacket -> RadioDriverLayerC;
++
++
+ #ifdef RADIO_DEBUG
+ 	components AssertC;
+ #endif
+diff --git a/tos/chips/rfA1/RFA1RadioP.nc b/tos/chips/rfA1/RFA1RadioP.nc
+index 273e85b..feeab36 100644
+--- a/tos/chips/rfA1/RFA1RadioP.nc
++++ b/tos/chips/rfA1/RFA1RadioP.nc
+@@ -50,6 +50,8 @@ module RFA1RadioP
+ 		interface ActiveMessageConfig;
+ 		interface DummyConfig;
+ 
++        interface ShortAddressConfig;
++
+ #ifdef LOW_POWER_LISTENING
+ 		interface LowPowerListeningConfig;
+ #endif
+@@ -309,6 +311,18 @@ implementation
+ 	{
+ 	}
+ 
++/*----------------- ShortAddressConfig-----------------*/
++
++    command void ShortAddressConfig.setShortAddr(uint16_t address)
++    {
++        // TODO: actually write the new ID
++        signal ShortAddressConfig.setShortAddrDone(FAIL);
++    }
++
++    default event void ShortAddressConfig.setShortAddrDone(error_t error)
++    {
++    }
++
+ /*----------------- LowPowerListening -----------------*/
+ 
+ #ifdef LOW_POWER_LISTENING
+diff --git a/tos/lib/net/blip/IPAddressP.nc b/tos/lib/net/blip/IPAddressP.nc
+index 755c45f..6555975 100644
+--- a/tos/lib/net/blip/IPAddressP.nc
++++ b/tos/lib/net/blip/IPAddressP.nc
+@@ -31,7 +31,7 @@ module IPAddressP {
+     interface Ieee154Address;
+   }
+ } implementation {
+-  bool m_valid_addr = FALSE, m_short_addr = FALSE;
++  bool m_valid_addr = FALSE, m_short_addr = TRUE;
+   struct in6_addr m_addr;
+ 
+   command bool IPAddress.getLLAddr(struct in6_addr *addr) {
+diff --git a/tos/lib/net/blip/IPDispatchC.nc b/tos/lib/net/blip/IPDispatchC.nc
+index d346367..67840a2 100644
+--- a/tos/lib/net/blip/IPDispatchC.nc
++++ b/tos/lib/net/blip/IPDispatchC.nc
+@@ -40,7 +40,7 @@ configuration IPDispatchC {
+ 
+   /* IPDispatchP wiring -- fragment rassembly and lib6lowpan bindings */
+   components IPDispatchP;
+-  components CC2420RadioC as MessageC;
++  components BareMessageC as MessageC;
+   components ReadLqiC;
+   components new TimerMilliC();
+ 
+@@ -58,8 +58,8 @@ configuration IPDispatchC {
+   IPDispatchP.RadioControl -> MessageC;
+ 
+   IPDispatchP.BarePacket -> MessageC.BarePacket;
+-  IPDispatchP.Ieee154Send -> MessageC.BareSend;
+-  IPDispatchP.Ieee154Receive -> MessageC.BareReceive;
++  IPDispatchP.BareSend -> MessageC;
++  IPDispatchP.BareReceive -> MessageC;
+ 
+ #ifdef LOW_POWER_LISTENING
+    IPDispatchP.LowPowerListening -> MessageC;
+diff --git a/tos/lib/net/blip/IPDispatchP.nc b/tos/lib/net/blip/IPDispatchP.nc
+index 6e4e5e2..d73937b 100644
+--- a/tos/lib/net/blip/IPDispatchP.nc
++++ b/tos/lib/net/blip/IPDispatchP.nc
+@@ -55,8 +55,8 @@ module IPDispatchP {
+     interface SplitControl as RadioControl;
+ 
+     interface Packet as BarePacket;
+-    interface Send as Ieee154Send;
+-    interface Receive as Ieee154Receive;
++    interface BareSend;
++    interface BareReceive;
+ 
+     /* context lookup */
+     interface NeighborDiscovery;
+@@ -334,9 +334,11 @@ void SENDINFO_DECR(struct send_info *si) {
+     return ret;
+   }
+ 
+-  event message_t *Ieee154Receive.receive(message_t *msg, void *msg_payload, uint8_t len) {
++  event message_t *BareReceive.receive(message_t *msg) {
+     struct packed_lowmsg lowmsg;
+     struct ieee154_frame_addr frame_address;
++    uint8_t len = call BarePacket.payloadLength(msg);
++    void *msg_payload = call BarePacket.getPayload(msg, len);
+     uint8_t *buf = msg_payload;
+ 
+     // printf(" -- RECEIVE -- len : %i\n", len);
+@@ -437,8 +439,7 @@ void SENDINFO_DECR(struct send_info *si) {
+       goto fail;
+     }
+ 
+-    if ((call Ieee154Send.send(s_entry->msg,
+-                               call BarePacket.payloadLength(s_entry->msg))) != SUCCESS) {
++    if (call BareSend.send(s_entry->msg) != SUCCESS) {
+       dbg("Drops", "drops: sendTask: send failed\n");
+       goto fail;
+     } else {
+@@ -480,6 +481,7 @@ void SENDINFO_DECR(struct send_info *si) {
+     struct send_entry *s_entry;
+     message_t *outgoing;
+ 
++    uint8_t max_len;
+     int frag_len = 1;
+     error_t rc = SUCCESS;
+ 
+@@ -519,8 +521,9 @@ void SENDINFO_DECR(struct send_info *si) {
+       }
+ 
+       call BarePacket.clear(outgoing);
+-      frag_len = lowpan_frag_get(call Ieee154Send.getPayload(outgoing, 0),
+-                                 call BarePacket.maxPayloadLength(),
++      max_len = call BarePacket.maxPayloadLength();
++      frag_len = lowpan_frag_get(call BarePacket.getPayload(outgoing, max_len),
++                                 max_len,
+                                  msg,
+                                  frame_addr,
+                                  &ctx);
+@@ -568,7 +571,7 @@ void SENDINFO_DECR(struct send_info *si) {
+     return rc;
+   }
+ 
+-  event void Ieee154Send.sendDone(message_t *msg, error_t error) {
++  event void BareSend.sendDone(message_t *msg, error_t error) {
+     struct send_entry *s_entry = call SendQueue.head();
+ 
+     radioBusy = FALSE;
+diff --git a/tos/lib/net/blip/Ieee154AddressC.nc b/tos/lib/net/blip/Ieee154AddressC.nc
+index 74d83eb..896e0f8 100644
+--- a/tos/lib/net/blip/Ieee154AddressC.nc
++++ b/tos/lib/net/blip/Ieee154AddressC.nc
+@@ -5,13 +5,11 @@ configuration Ieee154AddressC {
+ } implementation {
+   components Ieee154AddressP;
+   components LocalIeeeEui64C;
++  components BareMessageC;
+   components MainC;
+   Ieee154Address = Ieee154AddressP;
+ 
+   MainC.SoftwareInit -> Ieee154AddressP;
+   Ieee154AddressP.LocalIeeeEui64 -> LocalIeeeEui64C;
+-
+-  // workaround until the radio stack uses this interface
+-  components CC2420ControlC;
+-  Ieee154AddressP.CC2420Config -> CC2420ControlC;
++  Ieee154AddressP.ShortAddressConfig -> BareMessageC;
+ }
+diff --git a/tos/lib/net/blip/Ieee154AddressP.nc b/tos/lib/net/blip/Ieee154AddressP.nc
+index 82a58a8..205d238 100644
+--- a/tos/lib/net/blip/Ieee154AddressP.nc
++++ b/tos/lib/net/blip/Ieee154AddressP.nc
+@@ -6,7 +6,7 @@ module Ieee154AddressP {
+   }
+   uses {
+     interface LocalIeeeEui64;
+-    interface CC2420Config;
++    interface ShortAddressConfig;
+   }
+ } implementation {
+   ieee154_saddr_t m_saddr;
+@@ -40,11 +40,12 @@ module Ieee154AddressP {
+ 
+   command error_t Ieee154Address.setShortAddr(ieee154_saddr_t addr) {
+     m_saddr = addr;
+-    call CC2420Config.setShortAddr(addr);
+-    call CC2420Config.sync();
++    call ShortAddressConfig.setShortAddr(addr);
+     signal Ieee154Address.changed();
+     return SUCCESS;
+   }
+ 
+-  event void CC2420Config.syncDone(error_t err) {}
++  event void ShortAddressConfig.setShortAddrDone(error_t error)
++  {
++  }
+ }
+diff --git a/tos/lib/net/blip/interfaces/ShortAddressConfig.nc b/tos/lib/net/blip/interfaces/ShortAddressConfig.nc
+new file mode 100644
+index 0000000..1b8c051
+--- /dev/null
++++ b/tos/lib/net/blip/interfaces/ShortAddressConfig.nc
+@@ -0,0 +1,6 @@
++interface ShortAddressConfig
++{
++  command void setShortAddr(uint16_t address);
++
++  event void setShortAddrDone(error_t error);
++}
